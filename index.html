@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 버킷리스트</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+        * { 
+            font-family: 'Gaegu', cursive;
+        }
+        .title {
+            color: brown;
+            font-size: 40px;
+        }
+
+        .bg {
+            width: 1000px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+
+        .msg {
+            font-size: 50px;
+        }
+
+        .bucket {
+            width: 300px;
+            height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css"> 
+    <!-- img1, img2, center, wrap 등 사전에 클래스 이름을 정의(만들어 놓은) 곳 -->
+</head>
+
+<body class="bg center">
+
+    <h1 class="title">2023년 신년계획</h1> <!-- <h1>태그 = 페이지 제목 부분을 담당. class = "2023년 신년계획" 이라는 부분을 부를 명찰을 붙임 => "title"-->
+    <p class="msg"> 올해는 꼭 모두 이루자!</p> <!-- <p>태그 = 문단을 나타내는 태그 -->
+    <div class="row flex-row wrap">
+
+        <div class="bucket img4-t5 center"> 40kg 만들기 </div> <!-- 명찰을 2개 붙일 수도 있다.(bucket 하나, img1 하나)-->
+        <!-- 완료 시 클래스 명 뒤에 done 입력. 예) class="bucket img1 center done" 입력 시 완료 처리 이미지 생성-->
+        <div class="bucket img1-t5 center"> 해외여행:오로라 보기 </div>
+        <div class="bucket img5-t5 center"> 토플110 만들기 </div>
+        <div class="bucket img3-t5 center"> 깃허브 매일 업로드하기 </div>
+        <div class="bucket img6-t5 center"> 나만의 WEB만들기 </div>
+        <div class="bucket img2-t5 center"> 데이터 사이언스 공부하기 </div>
+        <!-- shift + Alt + F키 : 에디터 상의 소스 정렬 단축키 -->
+
+    </div>
+
+
+</body>
+
+</html>
